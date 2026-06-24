@@ -30,6 +30,13 @@ FORM_HTML = """
       font-size: 14px;
       font-weight: 600;
     }
+    .momence-lead_form-success {
+      padding: 12px 0;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #0d8050;
+      font-weight: 600;
+    }
   </style>
   <script>
     (function () {
@@ -175,6 +182,7 @@ FORM_HTML = """
     token="DOjMdWLXQ5"
     country_code="mt"
     data_collect_consent="required"
+    data-on-success-msg="Thank you! Please check your email for your exclusive unique one-time use discount code."
     data-field-def='{"firstName":{"type":"text","label":"First name","required":true},"lastName":{"type":"text","label":"Last name","required":true},"email":{"type":"email","label":"Email (Work Email)","required":true,"hidden":false},"phoneNumber":{"type":"phone-number","label":"Phone number","required":true}}'
     src="https://momence.com/plugin/lead-form/lead-form.js"
   ></script>
