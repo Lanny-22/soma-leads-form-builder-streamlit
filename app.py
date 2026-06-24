@@ -216,7 +216,7 @@ FORM_HTML = """
     country_code="mt"
     source_id="221834"
     data_collect_consent="required"
-    data-on-success-msg="Thank you! Please check your email for your exclusive unique one-time use discount code."
+    data-on-success-msg="Thank you! We have received your submission and will email you within the next 24–48 hours with your unique EY discount code."
     data-field-def='{"firstName":{"type":"text","label":"First name","required":true},"lastName":{"type":"text","label":"Last name","required":true},"email":{"type":"email","label":"Email","required":true},"phoneNumber":{"type":"phone-number","label":"Phone number","required":true}}'
     src="https://momence.com/plugin/lead-form/lead-form.js"
   ></script>
